@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="shortcut icon" href="../Images/iphonelogo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/471faf6485.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <img src="../Images/fontaweimg.svg" alt="">
+        <form action="">
+            <h2><i class="fas fa-user"></i>Registration Form</h2>
+            <hr>
+            <div class="initials">
+                <label for="fname">First Name :</label><i id="fa-user" class="far fa-user"></i>
+                <input type="text" id="fname" placeholder="Enter first name" required="required"><br>
+    
+                <label for="lname">Last Name :</label><i id="fa-user" class="far fa-user"></i>
+                <input type="text" id="lname" placeholder="Enter Last name" required="required"><br>
+    
+                <label for="mob">Mobile No. :</label><i class="fas fa-phone-alt"></i>
+                <input type="number" id="mob" placeholder="Enter mobile no"><br>
+    
+                <label for="mail">Email :</label><i class="fas fa-envelope"></i>
+                <input type="email" id="mail" placeholder="Enter email address" required="required"><br>
+    
+                <label for="dob">Date of Birth :</label><i class="fas fa-calendar-alt"></i>
+                <input type="datetime-local" id="dob" placeholder="dd/mm/yyyy"><br>
+            </div>
+           
+            <label for="gender">Gender :</label>
+            <input type="radio" id="male" name="gender"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label><br>
+
+            <label for="img">Upload Image : </label>
+            <input type="file" id="img"><br>
+
+            <label for="">Select Field :</label>
+            <select name="" id="">
+                <option value="" hidden>---Select---</option>
+                <option value="">Testing</option>
+                <option value="">Development</option>
+                <option value="">MERN</option>
+                <option value="">Others</option>
+            </select><br>
+            <div class="pwd">
+                <label for="cpwd">Create Password :</label>
+                <input type="password" id="cpwd" required="required" placeholder="Password"><i class="fas fa-lock" id="pwd"></i><br>
+
+                <label for="cfpwd">Confirm Password :</label>
+                
+                <input type="password" id="cfpwd" required="required" placeholder="Re-Enter Password"><i class="fas fa-lock"></i><br>
+
+            </div>
+            
+            <input type="checkbox" id="checkbox" required="required">
+            <label for="checkbox">I have read all the terms and conditons</label><br>
+
+            <input type="checkbox" id="checkbox2" required="required">
+            <label for="checkbox2">I accept and agree to all the conditions.</label><br>
+            
+            <!-- <input type="submit"> -->
+            <div class="button">
+                <div class="clearbtn">
+                    <button>Submit</button>
+                    <button type="reset" id="clearbtn">Clear</button><br>
+                </div>
+                
+            </div>
+            
+
+            <label for="feedback">Feedback :</label>
+            <textarea name="" id="feedback" cols="30" rows="1"></textarea>
+        </form>
+    </section>
+    <!-- <section>
+        <form action="">
+            <label for="">Select theme color :</label>
+            <input type="color" name="" id=""><br>
+
+            <label for="">Select range :</label>
+            <input type="range" name="" id=""><br>
+
+            <label for="url">Enter url :</label>
+            <input type="url"><br>
+
+            <button>Submit</button>
+        </form>
+    </section> -->
+    
+</body>
+</html>
